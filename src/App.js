@@ -1,32 +1,38 @@
 import React from 'react';
+
 import logo from './logo.svg';
 import './App.css';
+// eslint-disable-next-line
+import { configure } from '@testing-library/react';
 
 function App() {
   return (
-    <div className="App">
       <header className="App-header">
-        <div>
+        <div className="App">
         <img src={logo} className="App-logo" alt="logo" />
         </div>
+        {/* Title */}
         <div className="title">
           theLaxerz 
         </div>
-        <div className="headerItems">
+        {/* HeaderItems */}
+        <div className="block2">
           <p>
             Edit <code>src/App.js</code> and save to reload.
           </p>
+        </div>  
+        <div>  
           <a
-            className="App-link"
+            className="block3"
             href="https://reactjs.org"
             target="_blank"
             rel="noopener noreferrer"
           >
             Learn React
           </a>
-          </div>
+        </div>   
       </header>
-    </div>
+     
   );
 }
 
