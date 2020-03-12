@@ -1,3 +1,5 @@
+/* Updated the original CSS to be suitable for my Under Construction Page */
+
 .App-logo {
   height: 200px;
   width: 200px;
@@ -15,8 +17,7 @@
   }
 }
 
-
-
+/* Centers theLaxerz in the DIV */
 .title {
   margin-left: 1em;
   flex: inherit;
@@ -33,20 +34,16 @@
 
 .block2
 {
-  font-size: calc(12px +  5vh);
+  /* font-size: calc(12px +  5vh);  formula for manipulating Text Size based on Screen */ 
+  font-size: calc(3vh);
   margin-left: 1em;
   flex: inherit;
-  align-content: space-between;
-  -ms-flex-item-align: auto;
+  align-items: right;
+  -ms-flex-align: end;
+  align-content: center;
+  text-align: right;
 }
 
-.block3
-{
-  font-size: calc(12px +  5vh);
-  margin-left: 1em;
-  align-content: space-between;
-  -ms-flex-item-align: auto;
-}
 
 .App-header {
   display: flex;

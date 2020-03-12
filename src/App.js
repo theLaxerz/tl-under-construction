@@ -18,19 +18,11 @@ function App() {
         {/* HeaderItems */}
         <div className="block2">
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            IT Consultants, Developers, Security Specialists
           </p>
-        </div>  
-        <div>  
-          <a
-            className="block3"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </div>   
+          <p>Linux/Windows Server Administration, System Architecture,</p>
+          <p>and all other needs <a href="mailto:support@thelaxerz.us"><code>support@thelaxerz.us</code></a></p>
+        </div>    
       </header>
      
   );
