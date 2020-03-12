@@ -6,7 +6,7 @@
   pointer-events: none;
   margin-top: 1.25em;
   margin-left: 1.25em;
-  margin-botton: 1.25em;
+  margin-bottom: 1.25em;
   display: flex;
   align-items: flex-start;
 }
@@ -19,12 +19,12 @@
 
 /* Centers theLaxerz in the DIV */
 .title {
-  margin-left: 1em;
+  margin-left: .25em;
   flex: inherit;
   align-content: space-between;
   -ms-flex-item-align: auto;
-  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif"; 
-  font-size: 50px; 
+  font-family: "Roboto"; 
+  font-size: 60px; 
   font-style: normal; 
   font-variant: small-caps; 
   font-weight: 700; 
@@ -32,14 +32,24 @@
   vertical-align: middle; 
 }
 
+p { 
+    margin: 0 !important;
+    text-align: right;
+  }
+
 .block2
 {
   /* font-size: calc(12px +  5vh);  formula for manipulating Text Size based on Screen */ 
-  font-size: calc(3vh);
-  margin-left: 1em;
-  flex: inherit;
+  font-family: Roboto;
+  font-size: calc(3.15vh);
+  justify-self: right;
+  justify-items: right;
+  flex: auto;
+  margin-top: 3em;
+  margin-right: .5em;
+  justify-content: center;
+  justify-content: flex-end;
   align-items: right;
-  -ms-flex-align: end;
   align-content: center;
   text-align: right;
 }
