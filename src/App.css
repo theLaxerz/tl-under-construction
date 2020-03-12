@@ -2,8 +2,9 @@
   height: 200px;
   width: 200px;
   pointer-events: none;
-  margin-top: 1.45em;
-  margin-left: 1em;
+  margin-top: 1.25em;
+  margin-left: 1.25em;
+  margin-botton: 1.25em;
   display: flex;
   align-items: flex-start;
 }
@@ -14,12 +15,20 @@
   }
 }
 
+
+
 .title {
-  font-size: calc(15px +  5vh);
   margin-left: 1em;
   flex: inherit;
   align-content: space-between;
   -ms-flex-item-align: auto;
+  font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif"; 
+  font-size: 50px; 
+  font-style: normal; 
+  font-variant: small-caps; 
+  font-weight: 700; 
+  line-height: 20px;
+  vertical-align: middle; 
 }
 
 .block2
@@ -52,8 +61,9 @@
   margin-top: 1.5em;
   margin: 1em;
   display: flex;
-  align-items: flex;
+  glyph-orientation-vertical: inherit;
   flex-direction: inherit;
+  align-items: center;
 }
 
 .headerItems {
