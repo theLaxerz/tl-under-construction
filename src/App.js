@@ -33,9 +33,15 @@ function App() {
           </p>
           <p className="block2">Linux/Windows Server Administration, System Architecture,</p>
           <p className="block2">and all other needs <a href="mailto:support@thelaxerz.us"><code>support@thelaxerz.us</code></a></p>
-        </div>
-        <sideNav />    
+        </div>    
       </header>
+      <body>
+        <SwipeableDrawer
+        open={state.left}
+        onClose={toggleDrawer('left', false)}
+        onOpen={toggleDrawer('left', true)}
+        ></SwipeableDrawer>
+      </body>
 
       
   );
