@@ -11,7 +11,7 @@ import './App.css';
 // import ListItemText from '@material-ui/core/ListItemText';
 // import InboxIcon from '@material-ui/icons/MoveToInbox';
 // import MailIcon from '@material-ui/icons/Mail';
-import sideNav from './sidenav.js';
+//import sideNav from './sidenav.js';
 
 // eslint-disable-next-line 
 import { configure } from '@testing-library/react';
@@ -35,13 +35,7 @@ function App() {
           <p className="block2">and all other needs <a href="mailto:support@thelaxerz.us"><code>support@thelaxerz.us</code></a></p>
         </div>    
       </header>
-      <body>
-        <SwipeableDrawer
-        open={state.left}
-        onClose={toggleDrawer('left', false)}
-        onOpen={toggleDrawer('left', true)}
-        ></SwipeableDrawer>
-      </body>
+
 
       
   );
